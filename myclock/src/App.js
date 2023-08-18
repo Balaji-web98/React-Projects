@@ -1,11 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
 import Clock from './Clock';
+import Table from './Table';
 
 function App() {
   return (
     <div className="App">
-      <Clock />
+      <h1>Ag Grid Table</h1>
+      {/* <Clock /> */}
+      <Table />
     </div>
   );
 }
