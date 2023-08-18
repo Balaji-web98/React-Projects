@@ -27,14 +27,16 @@ const Table = () => {
 
     let gridApi;
     const onGridReady = params => {
-        debugger;
         gridApi = params.api
-        console.log(gridApi);
+    }
+
+    const onExportClick = () => {
+        gridApi.exportDataAsCsv();
     }
 
     return (
         <>
-            <button>Export Data</button>
+            <button onClick={() => onExportClick()}>Export Data</button>
             <div className="ag-theme-alpine" style={{ width: "100%", height: 600 }} >
                 <AgGridReact rowData={data} columnDefs={columns} defaultColDef={defaultColDef}
                     rowSelection='multiple' animateRows={true} onGridReady={onGridReady} />
