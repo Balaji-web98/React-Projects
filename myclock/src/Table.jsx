@@ -2,7 +2,6 @@ import React from 'react';
 import { AgGridReact } from 'ag-grid-react';  // the AG Grid React Component
 import 'ag-grid-community/styles/ag-grid.css'; // Core grid CSS, always needed
 import 'ag-grid-community/styles/ag-theme-alpine.css'; // Optional theme CSS
-import { CheckboxSelectionComponent } from 'ag-grid-community';
 
 const Table = () => {
 
@@ -36,10 +35,16 @@ const Table = () => {
 
     return (
         <>
+            <h1 align="center"><u>AG Grid Table</u></h1>
             <button onClick={() => onExportClick()}>Export Data</button>
             <div className="ag-theme-alpine" style={{ width: "100%", height: 600 }} >
-                <AgGridReact rowData={data} columnDefs={columns} defaultColDef={defaultColDef}
-                    rowSelection='multiple' animateRows={true} onGridReady={onGridReady} />
+                <AgGridReact
+                    rowData={data}
+                    columnDefs={columns}
+                    defaultColDef={defaultColDef}
+                    rowSelection='multiple'
+                    animateRows={true}
+                    onGridReady={onGridReady} />
             </div>
         </>
     )
