@@ -6,16 +6,18 @@ import StyleAgGrid from './StyleAgGrid';
 import TooltipAggrid from './TooltipAggrid';
 import ExternalApiAggrid from './ExternalApiAggrid';
 import ChkbxSeleAgg from './ChkbxSeleAgg';
+import AxiosAggrid from './AxiosAggrid';
 
 function App() {
   return (
     <div className="App">
-      {/* <Clock /> */}
+      {/* <Clock />
       <Table />
       <StyleAgGrid />
       <TooltipAggrid />
       <ExternalApiAggrid />
-      <ChkbxSeleAgg />
+      <ChkbxSeleAgg /> */}
+      <AxiosAggrid apiUrl="https://jsonplaceholder.typicode.com/comments" />
     </div>
   );
 }
