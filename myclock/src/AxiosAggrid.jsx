@@ -40,11 +40,14 @@ const AxiosAggrid = ({ apiUrl }) => {
         <div>
             <h1 align="center"><u>React AG Grid Table</u></h1>
             <p><h3>Populating data to the Ag grid table with the help of Axios</h3></p>
-            <div className="ag-theme-alpine" style={{ width: "100%", height: 600 }}>
+            <div className="ag-theme-alpine" style={{ width: "100%", height: 400 }}>
                 <AgGridReact
                     columnDefs={columnDefs}
                     rowData={rowData}
                     defaultColDef={defaultColDef}
+                    pagination={true}
+                    paginationPageSize={6}
+                    paginationAutoPageSize={true}
                 />
             </div>
         </div>
