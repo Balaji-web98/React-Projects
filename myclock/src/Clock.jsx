@@ -13,6 +13,7 @@ const Clock = () => {
 
     return (
         <div>
+            <h1>My React Live Clock</h1>
             <h1>{currentTime}</h1>
         </div>
     )
