@@ -7,6 +7,7 @@ import TooltipAggrid from './TooltipAggrid';
 import ExternalApiAggrid from './ExternalApiAggrid';
 import ChkbxSeleAgg from './ChkbxSeleAgg';
 import AxiosAggrid from './AxiosAggrid';
+import AdminGrid from './AdminGrid';
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
       <TooltipAggrid />
       <ExternalApiAggrid />
       <ChkbxSeleAgg /> */}
-      <AxiosAggrid apiUrl="https://jsonplaceholder.typicode.com/comments" />
+      {/* <AxiosAggrid apiUrl="https://jsonplaceholder.typicode.com/comments" /> */}
+      <AdminGrid />
     </div>
   );
 }

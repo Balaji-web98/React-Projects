@@ -1,6 +1,6 @@
-.App {
-  /* text-align: center; */
-}
+/* .App {
+  text-align: center;
+} */
 
 .App-logo {
   height: 40vmin;
@@ -36,4 +36,29 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+/* My works starts here */
+.btn-src {
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.ex-btn {
+  padding-left: 50px;
+}
+
+.ex1-btn {
+  padding-left: 40px;
+}
+
+.add-btn {
+  padding-left: 40px;
+}
+
+.Action-btn {
+  padding-bottom: 20px;
+  padding-right: 20px;
+  text-align: end;
 }
