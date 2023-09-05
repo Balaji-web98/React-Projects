@@ -26,7 +26,7 @@ const AxiosAggrid = ({ apiUrl }) => {
         { headerName: 'ID', field: 'id' },
         { headerName: 'Name', field: 'name' },
         { headerName: 'Email', field: 'email' },
-        { headerName: 'About', field: 'body' }
+        { headerName: 'Company', field: 'company.name' }
     ];
 
     const defaultColDef = {
