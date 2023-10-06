@@ -1,0 +1,36 @@
+.btn-src input {
+    padding: 5px;
+    margin-right: 10px;
+    border-radius: 2rem;
+}
+
+.btn-src button {
+    padding: 5px 10px;
+    margin-right: 10px;
+    color: white;
+    border-radius: 3rem;
+    background-color: #e90000;
+    font-weight: bold;
+}
+
+.red-header {
+    background-color: red;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+
+.buttons-container button {
+    margin-left: 10px;
+}
+
+.Action-btn {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
